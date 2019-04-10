@@ -1,0 +1,6 @@
+/.obj/
+/ignore/
+ft_retro
+*.swp
+ft_retro.dSYM
+*.log
