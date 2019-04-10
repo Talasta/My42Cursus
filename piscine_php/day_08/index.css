@@ -1,0 +1,46 @@
+.map {
+  position: relative;
+  background-image: url('sqr.png');
+  background-size: 10px 10px;
+  height: 1000px;
+  width: 1500px;
+  border: 1px solid;
+}
+
+.ship {
+  position: absolute;
+  background-color: red;
+}
+
+.menu {
+  position: relative;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+  bottom: 0px;
+  height: 200px;
+  width: 1482px;
+  background-color: #909090;
+}
+
+.info {
+  overflow: auto;
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  top: 8px;
+  width: 50%;
+  bottom: 8px;
+  background-color: grey;
+}
+
+.win {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 20%;
+  height: 15%;
+  text-align: center;
+  z-index: 900;
+  border: 3px solid red;
+}

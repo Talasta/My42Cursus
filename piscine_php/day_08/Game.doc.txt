@@ -1,0 +1,35 @@
+<- Game_class ----------------------------------------------------------------------
+La class Game permet de sauvegarder les data d'une partie.
+Elle possède un emsemble de méthodes permettant de manipuler ce point
+
+Elle s'instancie de la facon suivant:
+$game = new Game(['player_1'=> new Player, 'player_2' => new Player]);
+
+Elle possède les méthode suivante:
+
+public function getMap(): retourne la map;
+public function getPlayer1(): retourne player_1;
+public function getPlayer2(): retourne player_1;
+public function getPlayer($id) retourne le player en fonction de l'$id passer
+en paramatre;
+public function getStatus() retourne le status du tour;
+public function getCurrentPlayer() retourne l'id du player entrain de jouer;
+public function getShip() retourne le nom du ship qui est en cours d'utilisation;
+public function getDist() retourne les distribution de pp pour le ship en cours
+de jeu;
+
+public function setShip( $name ): set le ship;
+public function SetDist( $k ): set les dist;
+
+public function updateStatus(): met a jour le status en cours et fait les
+actions necessaires pour clear le board si des ships sont morts, change aussi
+le current_player si le player actuel a fini toutes ses actions.
+
+public function updateShield(): met le shield du ship en cours d'utilisation a
+$this->_dist['shield'];
+
+public function jsonSerialize(): serialize les datas de l'instance Game;
+Game public static function jsonUnserialize( $jsonString ): la fonction parle
+d'elle meme, permet de retrouver l'object suite a une serialisation;
+
+---------------------------------------------------------------------- Game_class ->

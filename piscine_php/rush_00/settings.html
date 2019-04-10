@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="global.css" />
+<br />
+<a style="color: white; float: right;" href="index.php">Retour vers le site</a>
+<form method="POST" action="action_settings.php">
+	<p style="color: white;">Change my login :</p><br />
+	<input class="setting_champ" type="text" name="l_new_login" placeholder="New login" value="" /><br />
+	<input class="setting_champ" type="password" name="l_password" placeholder="Password" value="" /><br />
+	<input style="margin-top: 3px;" type="submit" name="type" value="Change login" />
+</form>
+<br /><br />
+<form method="POST" action="action_settings.php">
+	<p style="color: white">Change my password :</p><br />
+	<input class="setting_champ" type="password" name="p_password" placeholder="Old password" value="" /><br />
+	<input class="setting_champ" type="password" name="p_new_password" placeholder="New password" value="" /><br />
+	<input class="setting_champ" type="password" name="p_s_new_password" placeholder="Confirm new password" value="" /><br />
+	<input style="margin-top: 3px;" type="submit" name="type" value="Change password" />
+</form>
+<br /><br />
+<form method="POST" action="action_settings.php">
+	<p style="color: white;">Delete account :</p><br />
+	<input class="setting_champ" type="password" name="d_password" placeholder="Password" value=""/><br />
+	<input style="margin-top: 3px;" type="submit" name="type" value="Delete user" />
+</form>

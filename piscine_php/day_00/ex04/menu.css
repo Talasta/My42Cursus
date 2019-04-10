@@ -1,0 +1,43 @@
+.btn {
+	background-color: #27388b;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	min-width: 160px;
+}
+
+.dd {
+	margin-bottom: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.ddctn {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+	background-color: #8390ce;
+}
+
+.ddctn a {
+	color: black;
+	font-family: monospace;
+	font-size: 14px;
+	padding: 12px 16px;
+	border-bottom: 2px solid #182357;
+	border-left: 2px solid #182357;
+	border-right: 2px solid #182357;
+	display: block;
+}
+
+.ddctn a:hover {background-color: #909090}
+
+.dd:hover .ddctn {
+	display: block;
+}
+
+.dd:hover .btn {
+	background-color: #182357;
+}

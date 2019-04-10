@@ -1,0 +1,19 @@
+<- Weapon ----------------------------------------------------------------------
+
+La class Weapon est la class de reférence pour crée des armes, elle est
+abstraite et ne s'instancie que depuis une class enfant.
+
+Elle possède les méthode suivante:
+
+shoot( Pos $pos, $PP, Game $world)
+Permet d'effectuer un shoot, elle prends en paramettre les coordonné dela cible
+qui est une instance de Pos, la puissance du shoot et une instance de la
+class world.
+
+jsonSerialize();
+Permet de  sérialiser l'objet.
+
+jsonUnserialize( $jsonString )
+Permet de désérialiser l'objet.
+
+---------------------------------------------------------------------- Weapon ->

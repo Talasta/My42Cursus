@@ -1,0 +1,23 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles 3D coords for a point .
+
+An instance can be contructed from 3 coords 'x', 'y' and 'z':
+new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );
+
+You can also specifie a homogene factor 'w':
+new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 3.0 ) );
+
+If 'w' is not specified it will be set at:
+'w' => 1.0
+
+You can also specifie a Color factor 'w':
+$color = new Color( array( 'red' => 255, 'green' =>   0, 'blue' =>   0 ) );
+new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 3.0,
+                                          'color' => $color ) );
+
+If 'color' is not specified it will be set at:
+'color' => new Color( array( 'red' => 255, 'green' => 255, 'blue' => 255 ) );
+
+Any other use is undefined behaviour.
+
+---------------------------------------------------------------------- Vertex ->

@@ -1,0 +1,162 @@
+body {background-color: #505050;}
+
+.fv{
+	display: flex;
+	flex-direction: column;
+	float: right;
+	list-style: none;
+}
+
+.titre{
+	position: relative;
+	width: 80%;
+	height: 150px;
+	background-color: #909090;
+	border-style: hidden;
+	border-radius: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.day_of_the_42{
+	float: left;
+	height: 135px;
+	width: auto;
+	margin-top: 7px;
+	margin-left: 7px
+}
+
+.loupe{
+	top: 17px;
+	right: 30px;
+	position: absolute;
+	float: right;
+	height: 90%;
+	width: auto;
+	float: right;
+	margin-top: 20px;
+}
+
+.close{
+	margin-top: 80px;
+	margin-right: 7px
+}
+
+.reload{
+	width: 20px;
+	height:20px;
+	margin-right: 7px
+}
+
+.centre {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.img_book{
+	margin-top: 10px;
+	width: 70px;
+	height: auto;
+}
+
+.img_towel{
+	margin-top: 10px;
+	width: 70px;
+	height: auto;
+}
+
+.img_r{
+	margin-top: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+.img_c{
+	margin: 10px;
+}
+
+.wall{
+	display: block;
+	background-image: url("resources/brick.jpg");
+	width: 115px;
+	height: 70px;
+	margin-top: 7px;
+}
+
+.droite{
+	width: 100;
+	height: auto;
+	background-color: #909090;
+	border-style: hidden;
+	border-radius: 10px;
+	margin: 10px;
+
+}
+
+.milieu{
+	position: relative;
+	width: auto;
+	height: auto;
+	background-color: #909090;
+	border-style: hidden;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.gauche{
+	display: flex;
+	flex-direction: column;
+	height: 430px;
+	width: 145px;
+	background-color: #909090;
+	border-style: hidden;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.cvert{
+	position: absolute;
+	left: 8%;
+	top: 700px;
+	display: block;
+	width: 500px;
+	height: 180px;
+	background-color: #88ff89;
+	box-shadow: 10px 10px 5px #000000;
+	border-style: hidden;
+	z-index: 999999;
+	border-radius: 10px;
+}
+
+.txt{
+	margin: 15px;
+	margin-bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 107%;
+}
+
+.itl{
+	font-style: italic;
+}
+
+.entrez {
+	font-size: 200%;
+   	font-style: normal;	
+	font-family: Cambria, Georgia, serif;
+}
+
+.ordi{
+   	font-style: normal;	
+	text-shadow: 2px 5px 5px #ff0000;
+}
+
+.entre {
+	margin-top: 4px;
+	width: 350px;
+	border-style: inset;
+	border-width: 3px;
+}

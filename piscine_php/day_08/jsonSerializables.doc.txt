@@ -1,0 +1,12 @@
+<- JsonSerializables ----------------------------------------------------------------------
+Interface qui definie les classes qui permetterons de serialize leurs datas pour
+pouvoir les post.
+
+Elle possède les méthode suivante:
+
+public function jsonSerialize(): serialize les datas de l'instance Name.
+ClassName public static function jsonUnserialize( $jsonString ): retourne
+l'object suite a une serialisation.
+
+
+---------------------------------------------------------------------- JsonSerializables ->

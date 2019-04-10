@@ -1,0 +1,40 @@
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles 4x4 Matrices.
+
+An instance can be contructed from a parameter 'preset' => Matrix::const
+
+  IDENTITY, take no other param;
+    new Matrix( array( 'preset' => Matrix::IDENTITY ) );
+
+  TRANSLATION, take a 'vtc' => new Vector;
+    new Matrix( array( 'preset' => Matrix::TRANSLATION, 'vtc' => $vtc ) );
+
+  SCALE, take a 'scale' => numeric_value
+    new Matrix( array( 'preset' => Matrix::SCALE, 'scale' => 10.0 ) );
+
+  RX or RY or RZ, takes a 'angle' => numeric_val (angle of rotation in radian)
+    new Matrix( array( 'preset' => Matrix::RX, 'angle' => M_PI_4 ) );
+
+  PROJECTION, take a 'fov' = int_val
+  & 'near' => numeric_val
+  & 'far' => numeric_val
+  & 'ratio' => numeric_val
+    new Matrix( array( 'preset' => Matrix::PROJECTION,
+    						'fov' => 60,
+    						'ratio' => 640/480,
+    						'near' => 1.0,
+    						'far' => -50.0 ) );
+
+Any other use is undefined behaviour.
+
+The class provides the set and get methode for each attributes:
+
+Matrix mult( Matrix $rhs ) : return the result of the multiplication by the
+current Matrix with the one passed in parameter.
+
+Vertex transformVertex( Vertex $vtx ) : return the Vertex resulting of the
+transformation by the current matrix.
+
+Matrix transposeMatrix() : return the transpose of the current the matrix;
+
+---------------------------------------------------------------------- Matrix ->

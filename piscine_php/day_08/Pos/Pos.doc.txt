@@ -1,0 +1,31 @@
+<- Pos ----------------------------------------------------------------------
+La class Pos permet de placer un point d'un plan 2D.
+Elle possède un emsemble de méthodes permettant de manipuler ce point
+
+Elle s'instancie de la facon suivant:
+$pos = new Pos(['x'=> 0, 'y' => 0], 'os' => 0);
+Où:
+x, est une coordonnée sur l'axe des abscsisse.
+y, est une coordonnée sur l'axe des ordonnées
+os, est un axe de rotation sur selon les 4 points cardinaux. 1 == Est, 2 == Sud,
+3 == Ouest, 4 == Nord.
+
+Elle possède les méthode suivante:
+
+rotateRight
+Permet de modifier l'axe dans le sens des aiguilles d'une montre.
+
+rotateLeft();
+Permet de modifier l'axe dans le sens inverser des aiguilles d'une montre.
+
+move( $k )
+Effectue un mouvement de $k case dans le sens de l'axe os.
+
+jsonSerialize()
+Prépare le contenu des paramettre de l'objet en tableau en fais de le
+sérialize en json
+
+jsonUnserialize()
+Prends un param un tableau de l'objet pos pour préparer crée une nouvelle
+instance json.
+---------------------------------------------------------------------- Pos ->

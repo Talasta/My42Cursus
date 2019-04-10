@@ -1,0 +1,13 @@
+<- Map ----------------------------------------------------------------------
+La class Map permet de sauvegarder les data d'une map.
+
+$map = new Map();
+
+Elle possède les méthode suivante:
+
+public function displayAsteroids(): renvoie les code html des asteroids;
+public function jsonSerialize(): permet de serializer les donnees de map;
+Map public static function jsonUnserialize( $jsonString ) : l'inverse de
+serialize;
+
+---------------------------------------------------------------------- Map ->

@@ -1,0 +1,8 @@
+<- MacroCanon ----------------------------------------------------------------------
+
+La class MacroCanon est une class enfant de la class spaceship elle possède donc
+toute les méthode da la classe Spaceship.
+
+Elle définit dans sont constructeur l'ensemble des paramettre d'un MacroCanon.
+
+---------------------------------------------------------------------- MacroCanon ->

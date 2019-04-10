@@ -1,0 +1,11 @@
+<- Cuirasse ----------------------------------------------------------------------
+
+La class Cuirasse est une class enfant de la class spaceship elle possède donc
+toute les méthode da la classe Spaceship.
+
+Elle construit un vaisseau de type cuirrassé elle redéfinit les méthodes
+abstraite:
+resetPP();
+Qui permet de reset les point de puissance du vaisseaux.
+
+---------------------------------------------------------------------- Cuirasse ->

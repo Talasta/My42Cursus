@@ -1,0 +1,8 @@
+<- BeamLazer ----------------------------------------------------------------------
+
+La class BeamLazer est une class enfant de la class spaceship elle possède donc
+toute les méthode da la classe Spaceship.
+
+Elle définit dans sont constructeur l'ensemble des paramettre d'un BeamLazer.
+
+---------------------------------------------------------------------- BeamLazer ->

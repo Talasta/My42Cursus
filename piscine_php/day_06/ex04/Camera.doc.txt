@@ -1,0 +1,31 @@
+
+<- Camera ----------------------------------------------------------------------
+The Camera class handles a camera position.
+
+An instance can be contructed from the parameters:
+
+    'origin' => new Vertex,
+  & 'orientation' => new Matrix (rotation matrix)
+  & 'fov' => numeric_val,
+  & 'near' => numeric_val,
+  & 'far' => numeric_val,
+  & 'ratio' => numeric_val ^ ('width' => int_val & 'height' => int_val);
+
+  vtxO = new Vertex( array( 'x' => 20.0, 'y' => 20.0, 'z' => 80.0 ) );
+  $R    = new Matrix( array( 'preset' => Matrix::RY, 'angle' => M_PI ) );
+  $cam  = new Camera( array( 'origin' => $vtxO,
+  						   'orientation' => $R,
+  						   'width' => 640,
+  						   'height' => 480,
+  						   'fov' => 60,
+  						   'near' => 1.0,
+  						   'far' => 100.0) );
+
+Any other use is undefined behaviour.
+
+The class provides the set and get methode for each attributes:
+
+Vertex watchVertex( Vertex $worldVertex ) : return the projected vertex on the
+camera screen. (position of the pixel)
+
+---------------------------------------------------------------------- Camera ->

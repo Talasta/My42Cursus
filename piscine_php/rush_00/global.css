@@ -1,0 +1,199 @@
+.setting_champ {
+	border-radius: 5px;
+	margin-top: 3px;
+}
+
+.create_champ {
+	border-radius: 5px;
+}
+
+.form {
+	position: relative;
+	background-color: #ccdaff;
+	width: 360px;
+	margin: auto;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.delete {
+	position: absolute;
+	top: -35px;
+	right: -30%;
+	border: solid 2px;
+	border-color: red;
+	border-radius: 4px;
+}
+
+form.al_del {
+	position: absolute;
+	left: 90%;
+}
+
+.filter{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.create_user {
+	position: relative;
+	top: 20%;
+	text-align: center;
+}
+
+.user {
+	display: flex;
+	flex-direction: row-reverse;
+	position: relative;
+	text-align: center;
+	margin-right: 10px;
+}
+
+input.champ {
+	border: solid #1e2d57 2px;
+	border-radius: 4px;
+}
+
+.head {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 50px;
+	background-color: #ccdaff;
+	padding-top: 10px;
+}
+
+.title {
+	position: fixed;
+	font-family: Georgia;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	float: left;
+	margin-left: 20px;
+}
+
+.product {
+	position: relative;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	width: 63%;
+	height: 100px;
+	background-color: #ccdaff;
+	margin: 10px;
+	border: solid 1px;
+	border-radius: 7px;
+	padding-left: 12px;
+}
+
+.add_panier {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	border: solid 2px;
+	border-color: green;
+	border-radius: 4px;
+}
+
+.add_panier_in {
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+	width:40px;
+}
+
+.panier {
+	position: fixed;
+	font-family: Cambria, Georgia, serif;
+	margin-right: 8px;
+	top: 80px;
+	right: 0px;
+	height: 85%;
+	width: 30%;
+	overflow:auto;
+	padding: 10px;
+	border: solid 2px;
+	border-radius: 7px;
+	background-color: #ccdaff;
+}
+
+.price {
+	position: relative;
+	margin: auto;
+	margin-bottom: 5px;
+	padding: 10px;
+	border: solid 1px;
+}
+
+.elem {
+	position: relative;
+	margin: auto;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-bottom: solid 1px;
+}
+
+.archive {
+	display: block;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 100%;
+	height: 30px;
+	border: solid 2px;
+	border-color: #1e2d57;
+	border-radius: 7px;
+	background-color: white;
+}
+
+.admin_ref {
+	position: fixed;
+	width: 100px;
+	height: 30px;
+	bottom: 10px;
+	left: 10px;
+}
+
+.admin_btn{
+	width: 100px;
+	height: 30px;
+	border: solid 2px;
+	border-color: #a057d1;
+	border-radius: 4px;
+	background-color: #d199f7;
+}
+
+button.admin_input{
+	width: 100%;
+	font-size: 150%
+}
+
+input.del{
+	border: solid 2px;
+	border-color: red;
+	border-radius: 4px;
+}
+
+input.add{
+	border: solid 2px;
+	border-color: green;
+	border-radius: 4px;
+}
+
+input.udt{
+	border: solid 2px;
+	border-color: orange;
+	border-radius: 4px;
+}
+
+input.inf{
+	border: solid 2px;
+	border-color: blue;
+	border-radius: 4px;
+}

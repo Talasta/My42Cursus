@@ -1,0 +1,67 @@
+<- Spaceship ----------------------------------------------------------------------
+
+La class sapceship est la class de reférence pour crée des vaisseaux, elle est
+abstraite et ne s'instancie que depuis une class enfant.
+
+Elle possède les méthode suivante:
+
+abstract resetPP();
+Méthode abstraire à définir dans la class enfant.
+
+getPos()
+Retourne la position courante du vaiseaux, qui est une instance de Pos.
+
+getName()
+Retourne le nom du vaisseaux.
+
+getPP()
+Retourne les point de puissance du vaisseaux.
+
+getInerty()
+Retourne l'innercie du vaisseaux.
+
+getSpeed()
+La vitesse du vaisseaux.
+
+getSatus()
+Retourne le status du vaisseaux.
+
+getInertyStatus()
+Retourn l'impact de l'innercie du vaiseaux en fonction de sont point d'innerci
+de sont déplacement au tour.
+
+getAllPos()
+Retourne l'ensemble des coordonnés du vaisseaux en fonction des sa taille
+
+setShield()
+Permet de modifier l'état du bouclié
+
+setStatus()
+Permet de modifier le status du vaiseaux.
+
+setPos()
+Permet de modifer les coordonnées du vaisseaux
+
+displayCss()
+Permet d'afficher de générer le CSS du vaisseaux pour l'affichage dans le client
+
+move($arg, Game)
+Permet de déplacer le vaisseaux tien compte de son innercie et de sa taille,
+prends en parrametre un array $arg avec comme clef 'move' ou 'move' et 'lenght',
+qui donne le type de déplacemenet et la longueur du déplacement si 'lenght'
+déclaré. Et une instance de game.
+
+takeDamage( $n )
+Update l'état du vaisseau quand il recoit des dommages.
+
+shoot(array $arg, $world)
+Permet au vaisseaux de tirer. Attends en parrametre un 'PP' et un 'weapon' qui
+sont respectivement la puissance et une instance de la class weapon.
+
+jsonSerialize();
+Permet de  sérialiser l'objet.
+
+jsonUnserialize( $jsonString )
+Permet de désérialiser l'objet.
+
+---------------------------------------------------------------------- Spaceship ->
