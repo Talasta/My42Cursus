@@ -11,7 +11,7 @@ Fillit is a project that allows you to discover and / or familiarize yourself wi
 
 First, you have to `make`, then `./fillit [filename]`.
 
-### Tetriminos examples
+### Tetriminos set examples
 ```
 ....
 ....
@@ -33,6 +33,7 @@ First, you have to `make`, then `./fillit [filename]`.
 .###
 ....
 ```
+If you run the executable on the 4 tetriminos above.
 **Result :**
 ```
 AAAA.
