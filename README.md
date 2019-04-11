@@ -17,7 +17,7 @@ _Find the smallest possible square containing a given list of tetriminos_
 _First graphical project using wire-frame representation from scratch_
 5. **Printf:**  <span style="color:green">`98/100`</span> 
 [_repo_](https://github.com/Talasta/My42Cursus/tree/master/4_printf)</br>
-_Reimplementation of the printf function and_
+_Reimplementation of the printf function_
 6. **Push_swap:**  <span style="color:green">`125/100`</span> 
 [_repo_](https://github.com/Talasta/My42Cursus/tree/master/5_push_swap)</br>
 _Sorting two piles of integers with a limited set of actions using various sorting algorithms_
