@@ -64,4 +64,4 @@ This is much faster because of the speed of binary operation compared to memory 
 
 ## Contributors
 
-@blefeuvre (Baptiste Lefeuvre) student at 42
+@blefeuvr (Baptiste Lefeuvre) student at 42
