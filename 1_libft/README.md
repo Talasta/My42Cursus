@@ -1,5 +1,7 @@
 # LIBFT
 
+Project Objectives: Basis of the C language, Libc, Compilation of static library 
+
 ## Features implemented
 
 **Memory functions**
