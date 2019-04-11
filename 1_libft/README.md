@@ -42,3 +42,5 @@ and ft_lstmap
 ```
 
 ### This lib has been updated since it's creation.
+
+Last version can be found <Has to insert link>
