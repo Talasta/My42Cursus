@@ -1,4 +1,4 @@
-# Get_next_line 
+# GET NEXT LINE
 
 **Project Objectives :** Filedescriptors, statics in C, Basic parsing 
 
