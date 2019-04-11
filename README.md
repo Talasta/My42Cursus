@@ -1,4 +1,4 @@
-#42 Projects
+# 42 Projects
 
 ## First year
 
