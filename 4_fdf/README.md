@@ -14,10 +14,10 @@ The executable can take multiple maps in parameters.
 ### Examples
 
 Terminal infos</br>
-![alt text](https://github.com/Talasta/My42Cursus/blob/master/4_fdf/.resources/fdf_menu.png?raw=true "Terminal infos")
+<img src="https://github.com/Talasta/My42Cursus/blob/master/4_fdf/.resources/fdf_menu.png" width="100%">)
 </br>
 Fdf window demo</br>
-![alt text](https://github.com/Talasta/My42Cursus/blob/master/4_fdf/.resources/fdf.gif?raw=true "Fdf window demo")
+<img src="https://github.com/Talasta/My42Cursus/blob/master/4_fdf/.resources/fdf.gif" width="100%">)
 
 ### Project specificities
 
