@@ -11,7 +11,7 @@ How to open a graphic window and draw in? FdF proposes to represent 3D field in 
 First, you have to `make`, then `./fdf [mapfile ...]`.
 The executable can take multiple maps in parameters.
 
-## Examples
+### Examples
 
 Terminal infos</br>
 ![alt text](https://github.com/Talasta/My42Cursus/blob/master/4_fdf/.resources/fdf_menu.png?raw=true "Terminal infos")
@@ -19,4 +19,4 @@ Terminal infos</br>
 Fdf window demo</br>
 ![alt text](https://github.com/Talasta/My42Cursus/blob/master/4_fdf/.resources/fdf.gif?raw=true "Fdf window demo")
 
-## Project specificities
+### Project specificities
