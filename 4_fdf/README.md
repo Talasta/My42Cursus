@@ -20,3 +20,9 @@ Fdf window demo</br>
 ![alt text](https://github.com/Talasta/My42Cursus/blob/master/4_fdf/.resources/fdf.gif?raw=true "Fdf window demo")
 
 ### Project specificities
+
+1. Rasterisation
+2. Bresenham algorithm implementation
+3. Euler angles and rotations
+4. Bresenham algorithm implementation
+5. Color maniulation
