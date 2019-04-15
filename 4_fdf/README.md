@@ -25,4 +25,4 @@ _Fdf window demo_</br>
 2. Bresenham algorithm implementation
 3. Euler angles and rotations
 4. Bresenham algorithm implementation
-5. Color maniulation
+5. Color manipulation
