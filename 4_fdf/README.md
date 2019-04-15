@@ -4,7 +4,7 @@
 
 ## Intro
 
-How to open a graphic window and draw in? FdF proposes to represent 3D field in "wire-frame representation" in 2D.
+How to open a graphic window and draw in? FdF proposes to represent 3D field in "wire-frame representation" 2D.
 
 ## Usage
 
