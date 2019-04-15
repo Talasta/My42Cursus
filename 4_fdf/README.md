@@ -24,5 +24,5 @@ _Fdf window demo_</br>
 1. Rasterisation
 2. Bresenham algorithm implementation
 3. Euler angles and rotations
-4. Bresenham algorithm implementation
+4. Key events management
 5. Color manipulation
