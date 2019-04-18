@@ -32,7 +32,9 @@ usage: ./checker [num1 num2 ...] -v[v_arg]
 ### Testing
 To generate a list of int you can use `` NUMS=`ruby -e "puts (-100..100).to_a.shuffle.join(' ')"` `` and then `./push_swap $NUMS`
 
-<img src="https://github.com/Talasta/My42Cursus/blob/master/5_push_swap/.resources/push_swap.gif" width="50%" align="center">
+<p align="center">
+<img src="https://github.com/Talasta/My42Cursus/blob/master/5_push_swap/.resources/push_swap.gif" width="50%">
+</p>
 
 ### Bonus
 1.	Sorting algorithms
