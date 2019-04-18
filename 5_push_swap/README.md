@@ -38,7 +38,8 @@ To generate a list of int you can use `` NUMS=`ruby -e "puts (-100..100).to_a.sh
 
 ### Bonus
 1.	Sorting algorithms
-	> - **Quick sort**, _complexity_ $$O(n\cdot log(n))
-	> - **Radix sort**, _complexity_ $$O(w\cdot n) _where w is the number of bits required to store each key._
-	> - **Shell sort**, _complexity_ $$O(n^2)
+	> - **Quick sort**, _complexity_ ![equation](https://latex.codecogs.com/gif.latex?O%28n%5Ccdot%20log%28n%29%29)
+	> - **Radix sort**, _complexity_ ![equation](https://latex.codecogs.com/gif.latex?O%28w%5Ccdot%20n%29) _where w is the number of bits required to store each key._
+	> - **Shell sort**, _complexity_ ![equation](https://latex.codecogs.com/gif.latex?O%28n%5E2%29)
+
 2. Visualization of sorting process
