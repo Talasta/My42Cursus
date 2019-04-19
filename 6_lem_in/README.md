@@ -21,8 +21,6 @@ L1-3
 L10-0
 ```
 
-<img src="https://github.com/Talasta/My42Cursus/blob/master/6_lem_in/.resources/dark-mole.gif" width="100%">
-
 ### Bonus
 All graphical projects are done with the minimalist **Mini-LibX**.
 1.	Graphical map builder : **`dark-mole`**
