@@ -41,7 +41,7 @@ _Remplementation of hashing functions of the md and sha family_
 
 2. **Abstract_VM:**  <span style="color:green">`100/100`</span> 
 [_repo_](https://github.com/Talasta/My42Cursus/tree/master/10_abstract_vm')</br>
-_Remplementation of the memory managements functions_
+_Parser/Lexer and Compiler for an abstract language in C++_
 
 ## Piscines
 A Piscine is an intensive, weeks-long coding challenge during which we familiarize ourselves with a new programming language. 
