@@ -1,0 +1,31 @@
+Lexical error:
+[ ]
+
+Parsing error:
+[ ]
+
+Execution error:
+[ ]
+
+Operand error:
+- [x] Overflow UP Int8
+- [x] Overflow DOWN Int8
+- [x] Overflow UP Int16
+- [x] Overflow DOWN Int16
+- [x] Overflow UP Int32
+- [x] Overflow DOWN Int32
+- [x] Overflow UP Float
+- [x] Overflow DOWN Float
+- [x] Overflow UP Double
+- [x] Overflow DOWN Double
+- [ ] Underflow Float
+- [ ] Underflow Double
+- [x] Division by 0
+- [x] Modulo by 0
+- [ ] Multiplication Underflow
+- [ ] Multiplication Overflow UP
+- [ ] Multiplication Overflow DOWN
+- [ ] Addition Overflow UP
+- [ ] Addition Overflow DOWN
+- [ ] Subtraction Overflow UP
+- [ ] Subtraction Overflow DOWN

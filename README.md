@@ -28,6 +28,21 @@ _Help ants navigate in a graph of nodes ! Reimplementation of Dijkstra's shortes
 [_repo_](https://github.com/Talasta/My42Cursus/tree/master/7_corewar)</br>
 _Reimplementation of the CoreWar game: simulation of a VM and a custom assembler language_
 
+## Second year
+The second part of the curriculum englobes the following C/C++ projects.
+
+1. **Malloc:**  <span style="color:green">`100/100`</span> 
+[_repo_](https://github.com/Talasta/My42Cursus/tree/master/8_malloc)</br>
+_Remplementation of the memory managements functions_
+
+2. **Ssl_Md5:**  <span style="color:green">`114/100`</span> 
+[_repo_](https://github.com/Talasta/My42Cursus/tree/master/9_ssl_md5)</br>
+_Remplementation of hashing functions of the md and sha family_
+
+2. **Abstract_VM:**  <span style="color:green">`100/100`</span> 
+[_repo_](https://github.com/Talasta/My42Cursus/tree/master/10_abstract_vm')</br>
+_Remplementation of the memory managements functions_
+
 ## Piscines
 A Piscine is an intensive, weeks-long coding challenge during which we familiarize ourselves with a new programming language. 
 

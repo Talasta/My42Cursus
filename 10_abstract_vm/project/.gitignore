@@ -1,0 +1,6 @@
+avm
+.obj
+*.o
+*.dSYM
+
+.vscode
