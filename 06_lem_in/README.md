@@ -24,8 +24,8 @@ L10-0
 ### Bonus
 All graphical projects are done with the minimalist **Mini-LibX**.
 1.	Graphical map builder : **`dark-mole`**
-<img src="https://github.com/Talasta/My42Cursus/blob/master/6_lem_in/.resources/dark-mole.gif" width="100%">
+<img src="https://github.com/Talasta/My42Cursus/blob/master/06_lem_in/.resources/dark-mole.gif" width="100%">
 2. Graphical instruction checker : `**esc-caper**`
-<img src="https://github.com/Talasta/My42Cursus/blob/master/6_lem_in/.resources/esc-caper.gif" width="100%">
+<img src="https://github.com/Talasta/My42Cursus/blob/master/06_lem_in/.resources/esc-caper.gif" width="100%">
 
 You can use the 3 programs together this way : **`./dark-mole | ./lem-in | ./esc-caper`**
